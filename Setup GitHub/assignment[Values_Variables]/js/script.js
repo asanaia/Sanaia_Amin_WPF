@@ -1,9 +1,6 @@
 
 
-var yearBorn = 1955;
-/*
-console.log("Hello world");
-console.log(yearBorn);
-    */
+var age;
+age = 40;
 
-alert(yearBorn);
+var yearOfBirth = 1975;
