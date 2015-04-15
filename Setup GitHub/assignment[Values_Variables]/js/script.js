@@ -1,6 +1,9 @@
 
 
-var age;
-age = 40;
+var age = 40;
 
-var yearOfBirth = 1975;
+var isStudent = false;
+
+var firstName = "Amin";
+
+var phrase = "I don't know";
