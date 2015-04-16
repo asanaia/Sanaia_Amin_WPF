@@ -23,12 +23,12 @@ Expressions Assignment
 
  //Calculate the Total Cost Daily of Tolls
  var dailyCostTolls = numberOfTolls * costPerToll;
- console.log(dailyCostTolls+ " dollars");
+ console.log("Your Daily Tolls Expense is "+ dailyCostTolls+ " dollars");
  alert("Your Daily Tolls Expense is "+ dailyCostTolls+ " dollars");
  // I typed in 2 tolls that I pass by daily and $1 cost per toll and my calculator gave me $2 cost for daily
 
  //Calculate the Total Cost Monthly Tolls Expense
  var monthlyCostTolls = dailyCostTolls * 30;
- console.log(monthlyCostTolls+ " dollars");
+ console.log("Your Monthly Tolls Expense is "+ monthlyCostTolls+ " dollars");
  alert("Your Monthly Tolls Expense is "+ monthlyCostTolls+ " dollars");
  // I typed in 2 tolls that I pass by daily and $1 cost per toll and my calculator gave me $2 cost for daily and $60 cost for monthly
