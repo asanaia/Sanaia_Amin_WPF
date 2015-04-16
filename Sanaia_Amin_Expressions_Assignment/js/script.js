@@ -19,4 +19,9 @@ Expressions Assignment
 
  //Ask the user the price per toll and console log to check it
  var costPerToll = prompt("What is the cost of each toll?");
- console.log(costPerToll);
+ console.log(costPerToll+ " dollars");
+
+ //Calculate the Total Cost Daily of Tolls
+ var dailyCostTolls = numberOfTolls * costPerToll;
+ console.log(dailyCostTolls+ " dollars");
+ alert("Your Daily Tolls Expense is "+ dailyCostTolls+ " dollars");
