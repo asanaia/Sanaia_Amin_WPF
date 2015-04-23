@@ -44,7 +44,7 @@ Conditionals Assignment
  //Calculate Total Monthly Expenses
  var totalMonthlyExpenses = rent + utilities + car + loanPayments;
  console.log(totalMonthlyExpenses+ " dollars");
- //Monthly expenses total to 2000
+ //Monthly expenses total to 2000 printed to console log
 
  var totalMonthlyIncome = 2500;
  //vacation costs 600
@@ -54,10 +54,12 @@ Conditionals Assignment
   console.log("You will have to wait");
  }
  //Conditional statement to see if you can go on vacation
+ //console log printed You will have to wait
 
  var netRevenueMonthly = totalMonthlyIncome - totalMonthlyExpenses;
  console.log(netRevenueMonthly+ " dollars");
  //calculated net revenue monthly
+ //console log printed - 500 dollars
 
  //If you wait two months can you go on this vacation
  if(totalMonthlyIncome - totalMonthlyExpenses >= 600){
@@ -68,6 +70,7 @@ Conditionals Assignment
  }else{
   console.log("You will have to wait");
  }
+ //console log printed - Now you have enough money to go!!
 
  //using logical operator || is easier to write
  if(totalMonthlyIncome - totalMonthlyExpenses >= 600 || netRevenueMonthly * 2 >= 600){
@@ -75,8 +78,10 @@ Conditionals Assignment
  }else {
   console.log("You will have to wait");
  }
+ //console log printed - You can go on the vacation
 
  //ternary operator to write earlier conditional statement
  var vacation;
  vacation = (totalMonthlyIncome - totalMonthlyExpenses >= 600) ? "You can go on the vacation" : "You will have to wait";
  console.log(vacation);
+//console log printed - You will have to wait
