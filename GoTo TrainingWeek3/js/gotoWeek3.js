@@ -102,3 +102,4 @@ GoTo Training Week #3
   //Reprompt the user
   num1 = prompt("Please use only numbers.\n Please type in number");
  }
+
