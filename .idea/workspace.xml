@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="884b3e22-a592-4d20-913a-d8f1f559d869" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sanaia_Amin_Conditionals_Assignment/js/js.js" afterPath="$PROJECT_DIR$/Sanaia_Amin_Conditionals_Assignment/js/js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sanaia_Amin_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="js.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sanaia_Amin_Conditionals_Assignment/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9320114">
-              <caret line="24" column="131" selection-start-line="24" selection-start-column="131" selection-end-line="24" selection-end-column="131" />
+            <state vertical-scroll-proportion="0.91501415">
+              <caret line="73" column="94" selection-start-line="73" selection-start-column="94" selection-end-line="73" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -670,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sanaia_Amin_Conditionals_Assignment/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9320114">
-          <caret line="24" column="131" selection-start-line="24" selection-start-column="131" selection-end-line="24" selection-end-column="131" />
+        <state vertical-scroll-proportion="0.91501415">
+          <caret line="73" column="94" selection-start-line="73" selection-start-column="94" selection-end-line="73" selection-end-column="94" />
           <folding />
         </state>
       </provider>

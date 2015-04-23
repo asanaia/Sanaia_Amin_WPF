@@ -71,7 +71,7 @@ Conditionals Assignment
  }else{
   console.log("You will have to wait");
  }
- //console log printed - Now you have enough money to go!!
+ //console log printed - Now you have enough money to go!! since netRevenueMonthly*2 is >= 600
 
  //using logical operator || is easier to write
  if(totalMonthlyIncome - totalMonthlyExpenses >= 600 || netRevenueMonthly * 2 >= 600){
@@ -79,10 +79,10 @@ Conditionals Assignment
  }else {
   console.log("You will have to wait");
  }
- //console log printed - You can go on the vacation
+ //console log printed - You can go on the vacation since netRevenueMonthly*2 is >= 600
 
  //ternary operator to write earlier conditional statement
  var vacation;
  vacation = (totalMonthlyIncome - totalMonthlyExpenses >= 600) ? "You can go on the vacation" : "You will have to wait";
  console.log(vacation);
-//console log printed - You will have to wait
+//console log printed - You will have to wait since 500 is not >= 600
