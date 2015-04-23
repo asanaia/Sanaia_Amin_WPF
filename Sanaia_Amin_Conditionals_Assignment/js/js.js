@@ -46,3 +46,12 @@ Conditionals Assignment
  console.log(totalMonthlyExpenses+ " dollars");
  //Monthly expenses total to 2000
 
+ var totalMonthlyIncome = 2500;
+ //vacation costs 600
+ if(totalMonthlyIncome - totalMonthlyExpenses >= 600){
+  console.log("You can go on the vacation");
+ }else{
+  console.log("You will have to wait");
+ }
+ //Conditional statement to see if you can go on vacation
+ 
