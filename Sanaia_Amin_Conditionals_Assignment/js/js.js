@@ -13,6 +13,7 @@ Conditionals Assignment
   //If the user leaves it blank it will prompt to enter a value
   name = prompt("Please do not leave blank.\n What is your name?");
  }
+ //I first left it blank and was prompted to enter value then entered my name
 
  //Print to console
  console.log(name);
@@ -21,7 +22,7 @@ Conditionals Assignment
  //Cosole log monthlyExpenses
  console.log(monthlyExpenses);
 
- //Ask Expenses amounts (I verified that values were showing on the console)
+ //Ask Expenses amounts (I verified that values were showing on the console by inputting different amounts and checking the console)
  var rent = prompt("What is the cost of your rent monthly?");
  console.log(rent+ " dollars");
  var utilities = prompt("What is the cost of your utilities monthly?");
