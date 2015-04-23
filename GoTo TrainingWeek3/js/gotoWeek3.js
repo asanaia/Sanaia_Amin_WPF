@@ -82,3 +82,23 @@ GoTo Training Week #3
  }
 
  console.log("The total number of pears in the bowl is "+pearNumber);
+
+ //Validate prompts
+ var name = prompt("What is your name?");
+ //Test to see if the variabe is blank
+ if(name === ""){
+  //The user left it blank
+  //reprompt the user using the SAME variable
+  name = prompt("Please do not leave blank.\n What is your name?");
+ }
+
+ var num1 = prompt("Please type in a number");
+ //Test to see if it is a number
+ //isNaN(item to test)
+ console.log(isNaN("cat"));
+ console.log(isNaN(7));
+
+ if(isNaN(num1)){
+  //Reprompt the user
+  num1 = prompt("Please use only numbers.\n Please type in number");
+ }
