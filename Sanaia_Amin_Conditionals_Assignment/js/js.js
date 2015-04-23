@@ -76,3 +76,7 @@ Conditionals Assignment
   console.log("You will have to wait");
  }
 
+ //ternary operator to write earlier conditional statement
+ var vacation;
+ vacation = (totalMonthlyIncome - totalMonthlyExpenses >= 600) ? "You can go on the vacation" : "You will have to wait";
+ console.log(vacation);
