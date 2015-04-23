@@ -54,4 +54,16 @@ Conditionals Assignment
   console.log("You will have to wait");
  }
  //Conditional statement to see if you can go on vacation
- 
+
+ var netRevenueMonthly = totalMonthlyIncome - totalMonthlyExpenses;
+ console.log(netRevenueMonthly+ " dollars");
+ //calculated net revenue monthly
+
+ //If you wait two months can you go on this vacation
+ if(totalMonthlyIncome - totalMonthlyExpenses >= 600){
+  console.log("You can go on the vacation");
+ }else if(netRevenueMonthly * 2 >= 600){
+  console.log("Now you have enough money to go!!");
+ }else{
+  console.log("You will have to wait");
+ }
