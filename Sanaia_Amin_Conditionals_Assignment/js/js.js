@@ -62,8 +62,17 @@ Conditionals Assignment
  //If you wait two months can you go on this vacation
  if(totalMonthlyIncome - totalMonthlyExpenses >= 600){
   console.log("You can go on the vacation");
+  //If we save netRevenueMonthly for two months
  }else if(netRevenueMonthly * 2 >= 600){
   console.log("Now you have enough money to go!!");
  }else{
   console.log("You will have to wait");
  }
+
+ //using logical operator || is easier to write
+ if(totalMonthlyIncome - totalMonthlyExpenses >= 600 || netRevenueMonthly * 2 >= 600){
+  console.log("You can go on the vacation");
+ }else {
+  console.log("You will have to wait");
+ }
+
