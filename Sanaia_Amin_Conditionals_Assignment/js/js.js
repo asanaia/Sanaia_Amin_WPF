@@ -34,17 +34,17 @@ Conditionals Assignment
 
 //I entered for rent-1000 / utilities-200 / car-500 / loan-300 and assigned them below:
  var rent = 1000;
- console.log(rent+ " dollars");
+ console.log(rent+ " dollars for rent");
  var utilities = 200;
- console.log(utilities+ " dollars");
+ console.log(utilities+ " dollars for utilities");
  var car = 500;
- console.log(car+ " dollars");
+ console.log(car+ " dollars for car");
  var loanPayments = 300;
- console.log(loanPayments+ " dollars");
+ console.log(loanPayments+ " dollars for loan payments");
 
  //Calculate Total Monthly Expenses
  var totalMonthlyExpenses = rent + utilities + car + loanPayments;
- console.log(totalMonthlyExpenses+ " dollars");
+ console.log(totalMonthlyExpenses+ " dollars in total monthly expenses");
  //Monthly expenses total to 2000 printed to console log
 
  var totalMonthlyIncome = 2500;
@@ -58,7 +58,7 @@ Conditionals Assignment
  //console log printed You will have to wait
 
  var netRevenueMonthly = totalMonthlyIncome - totalMonthlyExpenses;
- console.log(netRevenueMonthly+ " dollars");
+ console.log(netRevenueMonthly+ " dollars in net monthly revenue");
  //calculated net revenue monthly
  //console log printed - 500 dollars
 
