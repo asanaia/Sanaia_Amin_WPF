@@ -36,8 +36,8 @@
       <file leaf-file-name="js.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7746479">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.62457335">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -93,10 +93,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="282" />
-    <option name="y" value="522" />
+    <option name="x" value="273" />
+    <option name="y" value="415" />
     <option name="width" value="1089" />
-    <option name="height" value="310" />
+    <option name="height" value="390" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -311,7 +311,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="282" y="522" width="1089" height="310" extended-state="0" />
+    <frame x="273" y="415" width="1089" height="390" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -713,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7746479">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.62457335">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding />
         </state>
       </provider>
