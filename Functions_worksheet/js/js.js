@@ -9,9 +9,12 @@ Functions Worksheet
 // alert("Test");
 
  //Calculate the circumference of a circle
- var radius = 6
- var circumference = calculateCircumference(radius);
- function calculateCircumference(radius){
-  return (radius * 3.14 * 2);
- }
- console.log("The Circumference of the circle is " + circumference);
+var totalCircumference = calcCircumference(6, 3.14);
+ function calcCircumference(radius, pi){
+  var circumference = radius * pi * 2;
+  return circumference;
+}
+
+console.log("The circumference of the circle is "+totalCircumference);
+
+ //Calculate how many bee stings are needed to kill an animal
