@@ -2,9 +2,8 @@
  /*
 Amin Sanaia
 SDI Section #1
-Functions Assignment
+GoTo Training Week #4
 4-29-2015
  */
 
- //alert("test");
-
+ alert("test");
