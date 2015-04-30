@@ -43,3 +43,28 @@ x++;
   happy = prompt("Please only use yes or no.\n Are you happy today?");
 
  }
+
+ //function call - "go button" that runs the function
+ //Arguments go inside of the function call
+ var returnedValue = randomizer(minNum, maxNum);
+
+ console.log("Your random number between "+minNum+" and"+maxNum+" is "+returnedValue);
+
+ //create a fucntion to calculate the random number
+ //parameters go inside ()
+ //parameters are temporary variables that can only be accessed inside of the function.
+ //they catch the arguments that are thrown into the function.  It makes code more flexible.
+ //we DO NOT want to use main code variables inside of functions
+
+ function randomizer(min, max){
+
+  //generate our random number
+  var randomNumber = Math.round(Math.random()*(max-min)+Number(min));
+  console.log(randomNumber);
+  //console.log(randomNumber)
+
+  //return the value to our main code
+  return randomNumber;
+ }
+
+ 
