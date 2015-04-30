@@ -34,6 +34,24 @@ Functions Assignment
  }
  console.log("You will be driving at "+speed+" mph");
 
- 
+ //Calculate amount of time the trip will take in minutes
+ //Using a Normal Function
+ var totalTripTime = calcTripTime(distance, speed);
+ function calcTripTime(distance, speed){
+  var triptime = distance / speed * 60;
+  return triptime;
+ }
+ console.log("It will take you "+totalTripTime+" minutes to get to your destination city!");
 
+/*
+In the prompt for user name I left it blank and I was asked not to leave it blank so I entered my name
+"Amin"
+In the prompt for distance I left it blank and was prompted not to leave it blank then I entered cat and again I was prompted to not leave it blank or use numbers so I entered 100 -
+"The total distance to your destination is 100 miles"
+In the prompt for speed I left it bland was prompted not to leave it blank then I entered mouse and again I was prompted to not leave it blank or use numbers so I entered 50 -
+"You will be driving at 50 mph"
+Console log -
+"It will take you 120 minutes to get to your destination city!"
+I used calculator to double check the numbers 100/50 *60 = 120
 
+ */
