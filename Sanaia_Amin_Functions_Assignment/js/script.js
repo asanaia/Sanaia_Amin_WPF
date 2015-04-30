@@ -26,6 +26,14 @@ Functions Assignment
  }
  console.log("The total distance to your destination is "+distance+" miles");
 
+ //Prompt for driving speed for the trip
+ var speed = prompt("How fast will you be driving?");
+ while(speed==="" || isNaN(speed)){
+  //re prompt the user validate the prompt is not bland and is a number
+  speed = prompt("Please do not leave blank and make sure it is a number\n How fast will you be driving?");
+ }
+ console.log("You will be driving at "+speed+" mph");
+
  
 
 
